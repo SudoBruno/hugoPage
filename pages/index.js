@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+
   return (
     <div className={styles.container}>
       <Head>
@@ -22,26 +23,36 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="" className={styles.card}>
-            <p>Video de Montagem &rarr; </p>
+          <a href="folder_institucional.pdf" target="_blank" className={styles.card}>
+            <p>Institucional Folder&rarr;</p>
           </a>
-
-          <a href="" className={styles.card}>
-            <p>Folder Institucional &rarr;</p>
+          <a href="https://www.youtube.com/watch?v=t5pWtqYv0wM" target="_blank" className={styles.card}>
+            <p>Hug Sofa Assembly&rarr; </p>
           </a>
           <a
-            href=""
+            href="flyer_sofa.pdf"
             className={styles.card}
+            target="_blank"
           >
-            <p>Flyer Sofá Hug &rarr;</p>
+            <p>Hug Sofa Flyer&rarr;</p>
           </a>
 
           <a
-            href=""
+            href="flyer_tree.pdf"
             className={styles.card}
+            target="_blank"
           >
             <p>
-              Flyer Mesa lateral Tree &rarr;
+              Side Table "Tree" Flyer&rarr;
+            </p>
+          </a>
+          <a
+            href="https://www.youtube.com/watch?v=gv0_nWE5Umg"
+            className={styles.card}
+            target="_blank"
+          >
+            <p>
+              Side Table "Tree" Assembly&rarr;
             </p>
           </a>
         </div>
