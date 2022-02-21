@@ -24,17 +24,17 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="folder_institucional.pdf" target="_blank" className={styles.card}>
-            <p>Institucional Folder&rarr;</p>
+            <p>Institucional Folder {'>'}</p>
           </a>
           <a href="https://www.youtube.com/watch?v=t5pWtqYv0wM" target="_blank" className={styles.card}>
-            <p>Hug Sofa Assembly&rarr; </p>
+            <p>Hug Sofa Assembly {'>'}</p>
           </a>
           <a
             href="flyer_sofa.pdf"
             className={styles.card}
             target="_blank"
           >
-            <p>Hug Sofa Flyer&rarr;</p>
+            <p>Hug Sofa Flyer {'>'}</p>
           </a>
 
           <a
@@ -43,7 +43,7 @@ export default function Home() {
             target="_blank"
           >
             <p>
-              Side Table "Tree" Flyer&rarr;
+              Side Table "Tree" Flyer {'>'}
             </p>
           </a>
           <a
@@ -52,7 +52,7 @@ export default function Home() {
             target="_blank"
           >
             <p>
-              Side Table "Tree" Assembly&rarr;
+              Side Table "Tree" Assembly {'>'}
             </p>
           </a>
         </div>
