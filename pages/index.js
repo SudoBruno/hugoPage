@@ -26,7 +26,7 @@ export default function Home() {
           <a href="folder_institucional.pdf" rel="noopener" target="__blank" className={styles.card}>
             <p>Institucional Folder {'>'}</p>
           </a>
-          <a href="https://www.youtube.com/watch?v=t5pWtqYv0wM" target="__blank" className={styles.card}>
+          <a href="https://www.youtube.com/watch?v=vCkuaGq277c" target="__blank" className={styles.card}>
             <p>Hug Sofa Assembly {'>'}</p>
           </a>
           <a
