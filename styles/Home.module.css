@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 .container {
-  padding: 2rem;
+  padding: 0rem;
 }
 .main {
+  margin-top: 0;
   background-image: url('/public/background.svg');
   background-size: 100vh;
   min-height: 100vh;
@@ -50,8 +51,8 @@
 }
 
 .title {
-  margin: 0;
-  line-height: 1.15;
+  margin: -1rem;
+  line-height: 4;
   font-size: 4rem;
 }
 
@@ -60,8 +61,12 @@
   text-align: center;
 }
 
+.title img{
+  width: 3em;
+  border-radius: 20em;
+}
+
 .description {
- 
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -84,30 +89,56 @@
   max-width: 1200px;
 }
 
-.card {
+.button {
   margin: 0.50rem;
-  padding: 1rem 8rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  background-color: #751816;
+  margin-bottom: 1rem;
+  background-color: rgb(5, 155, 50);
   color: #fff;
-  border: 2px solid #751816;
-  border-radius: 6px;
+  border-color: transparent;
+  border-radius: 25px;
+
+  text-align: center;
+ 
   transition: color 0.15s ease, border-color 0.15s ease;
   min-width: 440px;
   max-width: 460px;
-  transition: 0.375s;
+
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  transition: 0.375s;
-  color: black;
-  background-color: #fff;
-  border-color: #751816;
-  padding: 1rem 8.5rem;
+.button:hover {
+  background-color: rgb(5, 155, 50);
+  color: #fff;
+}
+
+.button:focus {
+  background-color: rgb(5, 155, 50);
+  color: #fff;
+}
+
+.buttonEmail {
+  margin: 0.50rem;
+  margin-bottom: 1rem;
+  background-color: rgb(217, 48, 37);
+  color: #fff;
+  border-color: transparent;
+  border-radius: 25px;
+
+  text-align: center;
+ 
+  transition: color 0.15s ease, border-color 0.15s ease;
+  min-width: 440px;
+  max-width: 460px;
+
+}
+
+.buttonEmail:hover {
+  background-color: rgb(217, 48, 37);
+  color: #fff;
+}
+
+.buttonEmail:focus {
+  background-color: rgb(217, 48, 37);
+  color: #fff;
 }
 
 .card h2 {
@@ -125,6 +156,7 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+
 
 @media (max-width: 600px) {
   .grid {

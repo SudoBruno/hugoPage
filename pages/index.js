@@ -1,61 +1,62 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import {
+  WhatsAppOutlined,
+  SendOutlined
+} from '@ant-design/icons';
 import styles from '../styles/Home.module.css'
+import { Button } from 'antd';
 
 export default function Home() {
 
   return (
     <div className={styles.container}>
       <Head>
-        <title>Mundo Movéis</title>
+        <title>Diego Gewehr</title>
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <Image width={300} height={120} src="/logo.png" alt="" />
+          <img src="/logo.png" alt="" />
+        </h1>
+        <h1 className={styles.title}>
+          <img src="/diego.jpeg" alt="" />
         </h1>
 
         <p className={styles.description}>
 
-          <code className={styles.code}>LINHA ECO FRIENDLY</code>
+          <code className={styles.code}>Diego Gewehr</code>
         </p>
 
         <div className={styles.grid}>
-          <a href="folder_institucional.pdf" rel="noopener" target="__blank" className={styles.card}>
-            <p>Institucional Folder {'>'}</p>
-          </a>
-          <a href="https://www.youtube.com/watch?v=vCkuaGq277c" target="__blank" className={styles.card}>
-            <p>Hug Sofa Assembly {'>'}</p>
-          </a>
-          <a
-            href="flyer_sofa.pdf"
-            className={styles.card}
-            target="__blank"
-            rel="noopener"
-          >
-            <p>Hug Sofa Flyer {'>'}</p>
+
+          <a target="__blank" href="https://wa.me/55018991341176">
+            <Button
+              size={'large'}
+              className={styles.button}
+              icon={<WhatsAppOutlined style={{ fontSize: '16px' }} />}
+              onClick={() => { }}
+            >
+              WhatsApp
+            </Button>
           </a>
 
-          <a
-            href="flyer_tree.pdf"
-            className={styles.card}
-            target="__blank"
-            rel="noopener"
-          >
-            <p>
-              Side Table &quot;Tree&quot; Flyer {'>'}
-            </p>
+          <a>
+            <Button
+              size={'large'}
+              className={styles.buttonEmail}
+              icon={<SendOutlined style={{ fontSize: '16px' }} />}
+              onClick={() => { }}
+            >
+              E-Mail: gewehrdiego@gmail.com
+            </Button>
           </a>
-          <a
-            href="https://www.youtube.com/watch?v=gv0_nWE5Umg"
-            className={styles.card}
-            target="__blank"
-            rel="noopener"
-          >
+
+          <a target="__blank" href={'https://www.google.com.br/maps/place/R.+Izaura+Boteon,+701+-+Res.+Sao+Jose,+Birigui+-+SP,+16201-024/@-21.2766815,-50.3451249,15.5z/data=!4m5!3m4!1s0x94961524ad9731e1:0xf9d8b4773481d35d!8m2!3d-21.2751967!4d-50.3333069'}>
             <p>
-              Side Table &quot;Tree&quot; Assembly {'>'}
+              Rua Dona Izaura Boteon, 701 - Birigui
             </p>
           </a>
         </div>
