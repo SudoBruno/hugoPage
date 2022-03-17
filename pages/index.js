@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Diego Gewehr</title>
+        <title>Hugo Evandro</title>
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -22,17 +22,17 @@ export default function Home() {
           <img src="/logo.png" alt="" />
         </h1>
         <h1 className={styles.title}>
-          <img src="/diego.jpeg" alt="" />
+          <img src="/hugo.jpeg" alt="" />
         </h1>
 
         <p className={styles.description}>
 
-          <code className={styles.code}>Diego Gewehr</code>
+          <code className={styles.code}>Hugo Evandro Batista</code>
         </p>
 
         <div className={styles.grid}>
 
-          <a target="__blank" href="https://wa.me/55018991341176">
+          <a target="__blank" href="https://wa.me/5518996317736">
             <Button
               size={'large'}
               className={styles.button}
@@ -50,7 +50,7 @@ export default function Home() {
               icon={<SendOutlined style={{ fontSize: '16px' }} />}
               onClick={() => { }}
             >
-              E-Mail: gewehrdiego@gmail.com
+              E-Mail: hugoevandro@terra.com.br
             </Button>
           </a>
 
